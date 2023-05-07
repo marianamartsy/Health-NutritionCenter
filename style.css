@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--main-color: rgb(46, 116, 127);
+	--secondary-color: rgb(243, 205, 18);
+	--light-color: rgba(238, 245, 249, 0.854);
+	--dark-color: rgb(111, 107, 111);
+	--pure-white-color: rgb(255, 255, 255);
+	--background-garadient: linear-gradient(45deg, rgba(36, 191, 230, 0.35), rgba(7, 7, 241, 0.35));
+	--background-garadient-solid: linear-gradient(45deg, rgb(15, 103, 115), rgb(18, 100, 208));
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6rem;
+}
+[id] {
+	scroll-margin-top: 84px;
+}
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--light-color);
+	z-index: -1;
+}
+.secondary-color {
+	color: var(--secondary-color);
+}
+
+/* nawigacj */
+
+.navbar-brand {
+	font-size: 2.2rem;
+	color: var(--main-color);
+	text-transform: uppercase;
+}
+.nav-link,
+.navbar-toggler-icon {
+	color: var(--main-color);
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+.navbar-toggler {
+	padding: 1em 1.5em;
+}
+
+/* header */
+
+.home {
+	position: relative;
+	color: var(--main-color);
+	height: 50rem;
+	background-image: url('./img/header-meal_640.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.home .btn {
+	color: var(--main-color);
+	padding: 1em 2em;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	background-color: var(--pure-white-color);
+}
+.home .welcome-text {
+	color: var(--secondary-color);
+	padding: 1em 2em;
+	font-size: 2.2rem;
+	text-transform: uppercase;
+}
+
+/* MAIN */
+#aboutus {
+	background-color: var(--light-color);
+}
+.text-light {
+	background-color: var(--dark-color);
+}
+.aboutus-box h3 {
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.aboutus-icon {
+	font-size: 3em;
+	color: var(--secondary-color);
+}
+.accordion-button {
+	padding: 1em;
+	font-size: 1.8rem;
+	background-color: var(--light-color);
+}
+.accordion-button:not(.collapsed) {
+	background-color: var(--secondary-color);
+}
+
+/* OUR team  */
+
+.team .card-img-top {
+	height: 400px;
+	object-fit: cover;
+	filter: grayscale(0.5);
+}
+.team .card-title {
+	font-size: 2rem;
+	color: var(--main-color);
+}
+/* contacts */
+.contact h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.contact-us {
+	color: var(--secondary-color);
+}
+.contact .submit-btn {
+	font-size: 1.6rem;
+	background-color: var(--light-color);
+	color: var(--main-color);
+}
+.footer-text {
+	color: var(--main-color);
+	font-size: 2rem;
+}
+.footer {
+	background-color: var(--light-color);
+}
+@media (min-width: 768px) {
+	.home {
+		background-image: url('../img/header-meal_1920.jpg');
+		background-attachment: fixed;
+		height: 75rem;
+	}
+}
+@media (min-width: 992px) {
+	[id] {
+		scroll-margin-top: 69px;
+	}
+}
