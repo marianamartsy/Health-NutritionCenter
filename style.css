@@ -138,7 +138,7 @@ body {
 }
 @media (min-width: 768px) {
 	.home {
-		background-image: url('../img/header-meal_1920.jpg');
+		background-image: url('./img/header-meal_1920.jpg');
 		background-attachment: fixed;
 		height: 75rem;
 	}
