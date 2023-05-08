@@ -61,7 +61,7 @@ body {
 	height: 50rem;
 	background-image: url('./img/header-meal_640.jpg');
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: bottom;
 	background-color: var(--pure-white-color);
 }
 .home .btn {
