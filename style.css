@@ -62,7 +62,7 @@ body {
 	color: var(--main-color);
 	height: 50rem;
 	background-image: url('./img/header-meal_640.jpg');
-	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center;
 }
 .home .btn {
@@ -136,6 +136,14 @@ body {
 .footer {
 	background-color: var(--light-color);
 }
+
+
+@media (min-width: 576px) {
+	.home {
+	background-size: contain;
+	}
+}
+
 @media (min-width: 768px) {
 	.home {
 		background-image: url('./img/header-meal_1920.jpg');
