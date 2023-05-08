@@ -137,10 +137,9 @@ body {
 	background-color: var(--light-color);
 }
 
-
 @media (min-width: 576px) {
 	.home {
-	background-size: contain;
+		background-size: contain;
 	}
 }
 
