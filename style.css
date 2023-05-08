@@ -139,6 +139,7 @@ body {
 @media (min-width: 576px) {
 	.home {
 		background-size: contain;
+		background-position: center;
 	}
 	.navbar-brand {
 		font-size: 2.2rem;
