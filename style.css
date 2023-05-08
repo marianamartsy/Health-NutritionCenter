@@ -11,8 +11,6 @@
 	--light-color: rgba(238, 245, 249, 0.854);
 	--dark-color: rgb(111, 107, 111);
 	--pure-white-color: rgb(255, 255, 255);
-	--background-garadient: linear-gradient(45deg, rgba(36, 191, 230, 0.35), rgba(7, 7, 241, 0.35));
-	--background-garadient-solid: linear-gradient(45deg, rgb(15, 103, 115), rgb(18, 100, 208));
 	scroll-behavior: smooth;
 	font-size: 62.5%;
 }
@@ -64,6 +62,7 @@ body {
 	background-image: url('./img/header-meal_640.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
+	background-color: var(--pure-white-color);
 }
 .home .btn {
 	color: var(--main-color);
