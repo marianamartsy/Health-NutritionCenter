@@ -143,8 +143,8 @@ body {
 	}
 	.navbar-brand {
 		font-size: 2.2rem;
+	}
 }
-
 @media (min-width: 768px) {
 	.home {
 		background-image: url('./img/header-meal_1920.jpg');
